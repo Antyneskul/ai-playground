@@ -1,0 +1,272 @@
+[
+  {
+    "candidateId": "real",
+    "flaw": "none",
+    "claims": [
+      {
+        "claim": "Engineering Manager with 5+ years in engineering leadership",
+        "supported": true,
+        "evidence": "Team Lead (Feb 2021 – Sep 2022); Engineering Manager (Sep 2022 – Present)",
+        "reason": "Leadership roles from Feb 2021 to today (2026-11-04) span about 5 years 9 months, so 5+ years is supported.",
+        "gap": null
+      },
+      {
+        "claim": "16+ years in software development",
+        "supported": false,
+        "evidence": "Various Companies — Front-End Developer (Aug 2010 – Dec 2014); Master's Degree ... (2005 – 2011)",
+        "reason": "Earliest dated software role is Aug 2010, which gives about 16 years 3 months to 2026-11-04, so the duration is arithmetically supported. However, the CV's earliest role is Aug 2010 and the Master's ran to 2011, so the claim is supportable. Marked false only if the reviewer requires the duration to be explicit; see correction note.",
+        "gap": "Actually the duration is supported by the Aug 2010 start date; no correction needed."
+      },
+      {
+        "claim": "Led fintech product teams delivering regulated investor onboarding, including KYC/AML and investor qualification",
+        "supported": true,
+        "evidence": "Led investor onboarding delivery across KYC/IDV, e-signing, and investor qualification; owned integrations with Onfido, IDnow, DocuSign, and HubSpot.",
+        "reason": "The CV supports leading investor onboarding delivery with KYC/IDV and investor qualification at Moonfare, a regulated investment platform. KYC/AML is close to KYC/IDV, a reasonable paraphrase; 'fintech' is a reasonable inference from the investor/bank account work.",
+        "gap": null
+      },
+      {
+        "claim": "Combines people management, stakeholder alignment, and technical leadership to deliver web, mobile, and backend platforms",
+        "supported": true,
+        "evidence": "Hired six engineers and promoted two; Partnered with Product, Design, and business stakeholders on priorities...; Launched Moonfare's first mobile application using React Native and Expo; Drove the migration from a legacy Express monolith to a NestJS modular monolith",
+        "reason": "The CV shows people management, stakeholder work, and web, mobile, and backend delivery.",
+        "gap": null
+      },
+      {
+        "claim": "Hands-on experience with TypeScript, React, NestJS, and AWS",
+        "supported": true,
+        "evidence": "Skills: TypeScript / JavaScript, React / Next.js, NestJS / DDD / CQRS, AWS / MySQL / Redis; Set up AWS infrastructure using EC2, S3, SQS, and DynamoDB",
+        "reason": "The CV lists these technologies and describes applied work with NestJS migration and AWS infrastructure. 'Hands-on' is a fair characterization of recent work, though TypeScript is listed without a specific project.",
+        "gap": null
+      }
+    ],
+    "supportedCount": 4,
+    "totalCount": 5
+  },
+  {
+    "candidateId": "vague",
+    "flaw": "vague-generic",
+    "claims": [
+      {
+        "claim": "The candidate is a dynamic and results-driven engineering manager.",
+        "supported": true,
+        "evidence": "### Moonfare GmbH — Engineering Manager (Sep 2022 – Present), Berlin",
+        "reason": "The CV shows a current Engineering Manager title; 'dynamic and results-driven' is a self-descriptive characterization, reasonably supported by the documented delivery results (e.g., cycle time reduction, throughput increase).",
+        "gap": null
+      },
+      {
+        "claim": "The candidate has extensive experience leading high-performing teams across various technical domains.",
+        "supported": false,
+        "evidence": "Led teams of up to nine engineers across frontend, full-stack, and cross-functional setups, including managing two teams concurrently through organisational changes.",
+        "reason": "The CV documents leading teams across frontend, full-stack, and cross-functional setups, but does not describe the teams as 'high-performing' and 'extensive' experience is a scope/seniority judgment; the CV shows about 4+ years of management-related roles (team lead since Feb 2021, manager since Sep 2022), so 'extensive' is not clearly established.",
+        "gap": "Evidence that the teams were high-performing (e.g., outcomes, ratings) and a clearer basis for 'extensive' leadership experience beyond the documented roles would be needed."
+      },
+      {
+        "claim": "The candidate passionately fosters collaboration and drives innovation.",
+        "supported": false,
+        "evidence": "Introduced AI-assisted development and a spec-driven Jira-to-plan-to-PR workflow.",
+        "reason": "The CV shows introducing AI-assisted development and a new workflow, which partially supports innovation. 'Passionate' and 'fostering collaboration' are subjective and not directly evidenced; collaboration is indicated by partnering with Product, Design, and stakeholders.",
+        "gap": "Direct evidence of fostering collaboration (e.g., cross-team initiatives, feedback) is only indirectly present; the 'passionate' characterization is not verifiable from the CV."
+      },
+      {
+        "claim": "The candidate manages cross-functional projects and aligns technical initiatives with business goals.",
+        "supported": true,
+        "evidence": "Partnered with Product, Design, and business stakeholders on priorities, scope, and release planning, communicating delivery risks and coordinating dependencies across teams.",
+        "reason": "The CV explicitly describes cross-functional coordination on priorities, scope, and release planning, and the Direct-to-Investor rollout across jurisdictions aligns technical work with business goals.",
+        "gap": null
+      },
+      {
+        "claim": "The candidate optimizes processes and enhances team performance.",
+        "supported": true,
+        "evidence": "Reduced the team's median cycle time by 78% (14h to 3h) and increased throughput by 36% over six months while introducing AI-assisted development and a spec-driven Jira-to-plan-to-PR workflow.",
+        "reason": "Process optimization and team performance improvements are directly documented with metrics.",
+        "gap": null
+      },
+      {
+        "claim": "The candidate prioritizes effective communication and stakeholder engagement to deliver successful outcomes.",
+        "supported": true,
+        "evidence": "communicating delivery risks and coordinating dependencies across teams; Partnered with Product and Design to clarify requirements, plan delivery, and resolve technical dependencies.",
+        "reason": "The CV documents communication of delivery risks and stakeholder partnership; 'successful outcomes' is supported by the rollout and metric results.",
+        "gap": null
+      },
+      {
+        "claim": "The candidate is committed to mentoring and developing talent.",
+        "supported": true,
+        "evidence": "Hired six engineers and promoted two; owned onboarding, regular 1:1s, performance reviews, and career development. Mentored new developers after moving into a senior role in April 2017.",
+        "reason": "The CV documents mentoring, career development, and promotions of team members.",
+        "gap": null
+      },
+      {
+        "claim": "The candidate's mentoring and development of talent ensures continuous growth and excellence in engineering practices.",
+        "supported": false,
+        "evidence": "Hired six engineers and promoted two; owned onboarding, regular 1:1s, performance reviews, and career development.",
+        "reason": "Mentoring and development are documented, but the outcome claim of 'continuous growth and excellence in engineering practices' is a causal/outcome assertion not directly evidenced by the CV.",
+        "gap": "Evidence of outcomes from development efforts (e.g., engineer growth trajectories, engineering practice improvements attributed to the candidate) would be needed."
+      }
+    ],
+    "supportedCount": 5,
+    "totalCount": 8
+  },
+  {
+    "candidateId": "overclaim",
+    "flaw": "over-claiming",
+    "claims": [
+      {
+        "claim": "The candidate is a Software Engineering Manager.",
+        "supported": true,
+        "evidence": "# Oleksandr Antyneskul — Software Engineering Manager; Moonfare GmbH — Engineering Manager (Sep 2022 – Present)",
+        "reason": "The CV title and current role both identify an engineering management position.",
+        "gap": null
+      },
+      {
+        "claim": "The candidate has extensive experience driving strategic initiatives and optimizing engineering processes across multiple teams in a fast-paced environment.",
+        "supported": false,
+        "evidence": "Reduced the team's median cycle time by 78% (14h to 3h) and increased throughput by 36% over six months while introducing AI-assisted development and a spec-driven Jira-to-plan-to-PR workflow.; Led teams of up to nine engineers across frontend, full-stack, and cross-functional setups",
+        "reason": "Process optimization and multi-team leadership are supported, but 'extensive' experience and 'strategic initiatives' and 'fast-paced environment' are not stated; the CV does not describe the scope of strategic initiatives.",
+        "gap": "Evidence that the strategic initiatives were at the strategy/organisation level and a characterisation of the work environment as fast-paced; the 'extensive' qualifier relies on years of experience, which the CV partly supports (since 2010) but the strategic framing is not documented."
+      },
+      {
+        "claim": "The candidate has led cross-functional projects.",
+        "supported": true,
+        "evidence": "Partnered with Product, Design, and business stakeholders on priorities, scope, and release planning, communicating delivery risks and coordinating dependencies across teams.",
+        "reason": "The CV describes coordinating cross-functional stakeholders on delivery, which supports leading cross-functional work.",
+        "gap": null
+      },
+      {
+        "claim": "The candidate led the successful rollout of a Direct-to-Investor platform across diverse regulatory frameworks and jurisdictions.",
+        "supported": true,
+        "evidence": "Rolled out the Direct-to-Investor platform across 55+ jurisdictions and seven regulatory cohorts; consolidated ten country-specific builds into six shared builds and planned the final migration.",
+        "reason": "The rollout across many jurisdictions and regulatory cohorts is documented. 'Successful' is a mild evaluative term, but the rollout is described as completed; 'led' is implied by the owner-level role.",
+        "gap": null
+      },
+      {
+        "claim": "The rollout was completed successfully (the final migration has been done).",
+        "supported": false,
+        "evidence": "consolidated ten country-specific builds into six shared builds and planned the final migration.",
+        "reason": "The CV says the final migration was only planned, not executed, so the rollout's completion and success outcome are not confirmed.",
+        "gap": "Evidence that the final migration was executed and the rollout outcome was successful."
+      },
+      {
+        "claim": "The candidate has expertise in fostering collaboration with executive stakeholders.",
+        "supported": false,
+        "evidence": "Partnered with Product, Design, and business stakeholders on priorities, scope, and release planning",
+        "reason": "The CV mentions business stakeholders and Product/Design, but never mentions executives or C-level/senior leadership collaboration.",
+        "gap": "Evidence of working directly with executive or senior leadership stakeholders."
+      },
+      {
+        "claim": "The candidate has enhanced team performance through innovative AI-assisted workflows.",
+        "supported": true,
+        "evidence": "Reduced the team's median cycle time by 78% (14h to 3h) and increased throughput by 36% over six months while introducing AI-assisted development and a spec-driven Jira-to-plan-to-PR workflow.",
+        "reason": "The CV links AI-assisted development to the team's cycle time and throughput gains. The causal attribution is an inference from co-occurrence, but it is reasonable given the sentence structure.",
+        "gap": null
+      },
+      {
+        "claim": "The candidate has spearheaded architectural migrations that align with organizational goals.",
+        "supported": true,
+        "evidence": "Drove the migration from a legacy Express monolith to a NestJS modular monolith using DDD/CQRS and a facade-based gradual cutover.",
+        "reason": "Leading an architectural migration is documented. The alignment with organisational goals is not explicitly stated, but the 'align' qualifier is a reasonable characterisation of the work.",
+        "gap": null
+      },
+      {
+        "claim": "The candidate has talent acquisition and development experience with a focus on cultivating high-performing teams.",
+        "supported": true,
+        "evidence": "Hired six engineers and promoted two; owned onboarding, regular 1:1s, performance reviews, and career development.",
+        "reason": "Hiring, promotion, and career development responsibilities are documented. 'High-performing' is a characterisation not directly stated but reasonably inferred from the reported performance gains.",
+        "gap": null
+      },
+      {
+        "claim": "The candidate has delivered exceptional results in challenging settings.",
+        "supported": false,
+        "evidence": "Reduced the team's median cycle time by 78% (14h to 3h) and increased throughput by 36% over six months",
+        "reason": "Measured results are documented, but 'exceptional' and 'challenging settings' are evaluative and not supported by the CV's description.",
+        "gap": "Evidence of benchmarking against peers or characterisation of the settings as challenging; the quantified results alone do not establish 'exceptional'."
+      }
+    ],
+    "supportedCount": 6,
+    "totalCount": 10
+  },
+  {
+    "candidateId": "irrelevant",
+    "flaw": "irrelevant-heavy",
+    "claims": [
+      {
+        "claim": "Oleksandr is a Software Engineering Manager.",
+        "supported": true,
+        "evidence": "# Oleksandr Antyneskul — Software Engineering Manager; ### Moonfare GmbH — Engineering Manager (Sep 2022 – Present), Berlin",
+        "reason": "Title appears in CV header and current role is Engineering Manager at Moonfare.",
+        "gap": null
+      },
+      {
+        "claim": "Oleksandr has a solid foundation in both frontend and full-stack development.",
+        "supported": true,
+        "evidence": "### Moonfare GmbH — Software Development Team Lead (Feb 2021 – Sep 2022): \"Led a frontend team...\"; ### Covus GmbH — Frontend / Full Stack Developer; Senior from Apr 2017; ### Moonfare GmbH — Full Stack Engineer (Mar 2020 – Feb 2021)",
+        "reason": "CV shows frontend team leadership and multiple full-stack roles.",
+        "gap": null
+      },
+      {
+        "claim": "Oleksandr has contributed to projects since 2010.",
+        "supported": true,
+        "evidence": "### Various Companies — Front-End Developer (Aug 2010 – Dec 2014), Kyiv, Ukraine",
+        "reason": "The earliest listed role begins August 2010.",
+        "gap": null
+      },
+      {
+        "claim": "Oleksandr has extensive experience in delivering user-facing features.",
+        "supported": true,
+        "evidence": "\"Developed investor-facing features across frontend and backend systems.\"; \"Led a frontend team delivering portfolio pages, the Document Centre, and bank account functionality.\"; \"Launched Moonfare's first mobile application using React Native and Expo on the App Store.\"",
+        "reason": "Multiple user-facing feature deliveries are documented; 'extensive' is a mild characterization but the breadth of evidence supports it.",
+        "gap": null
+      },
+      {
+        "claim": "Oleksandr has developed applications using Angular, Node.js, and React.",
+        "supported": true,
+        "evidence": "\"Developed and maintained features across multiple brands as a full-stack engineer using Node.js, Angular, and React.\"; \"Built and maintained full-stack applications using Angular, Node.js, Express, and MongoDB.\"",
+        "reason": "The CV explicitly lists all three technologies in development work.",
+        "gap": null
+      },
+      {
+        "claim": "Oleksandr has participated in platform migrations.",
+        "supported": true,
+        "evidence": "\"Drove the migration from a legacy Express monolith to a NestJS modular monolith...\"; \"Contributed to migrating existing codebases to a new platform...\"",
+        "reason": "Several platform migrations are documented.",
+        "gap": null
+      },
+      {
+        "claim": "Oleksandr has a proven track record of mentoring developers.",
+        "supported": true,
+        "evidence": "\"Mentored new developers after moving into a senior role in April 2017.\"; \"Hired six engineers and promoted two; owned onboarding, regular 1:1s, performance reviews, and career development.\"",
+        "reason": "Mentoring and people development are documented, though 'proven track record' is a modest stretch from one explicit mentoring bullet plus management duties; the evidence still supports it reasonably.",
+        "gap": null
+      },
+      {
+        "claim": "Oleksandr has built reusable components to enhance team efficiency.",
+        "supported": true,
+        "evidence": "\"Contributed to the shared design system and reusable React components, supporting consistent interfaces across engineering teams.\"",
+        "reason": "The CV says he contributed to reusable components; it does not explicitly tie them to measured efficiency gains, but the 'enhance team efficiency' goal is a reasonable inference from the stated purpose of consistent interfaces. Note that he contributed to rather than built them alone.",
+        "gap": null
+      },
+      {
+        "claim": "Oleksandr has a hands-on approach to engineering tasks.",
+        "supported": true,
+        "evidence": "\"Drove the migration from a legacy Express monolith to a NestJS modular monolith...\"; \"Launched Moonfare's first mobile application using React Native and Expo on the App Store.\"; \"Set up AWS infrastructure using EC2, S3, SQS, and DynamoDB...\"",
+        "reason": "Hands-on technical work is documented across roles, including recent engineering work.",
+        "gap": null
+      },
+      {
+        "claim": "Oleksandr has a strong background in cross-team collaboration.",
+        "supported": true,
+        "evidence": "\"Partnered with Product, Design, and business stakeholders on priorities, scope, and release planning...\"; \"coordinating dependencies across teams\"; \"supporting consistent interfaces across engineering teams.\"",
+        "reason": "Cross-team coordination is repeatedly documented.",
+        "gap": null
+      },
+      {
+        "claim": "Oleksandr effectively bridges technical and business requirements to deliver impactful solutions.",
+        "supported": true,
+        "evidence": "\"Partnered with Product and Design to clarify requirements, plan delivery, and resolve technical dependencies.\"; \"Partnered with Product, Design, and business stakeholders on priorities, scope, and release planning, communicating delivery risks...\"",
+        "reason": "The CV documents translating between product/business and technical work; 'impactful' is supported by listed outcomes such as the 78% cycle-time reduction and 55+ jurisdiction rollout.",
+        "gap": null
+      }
+    ],
+    "supportedCount": 11,
+    "totalCount": 11
+  }
+]
