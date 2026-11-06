@@ -9,6 +9,8 @@ export async function runExecute(dataDir: string, now: Date = new Date()): Promi
     return [];
   }
 
+  // At-least-once: state is persisted after each item so a crash mid-run can
+  // duplicate at most one log entry on the next run, but never silently drops an item.
   let currentState = state;
   const executed: Item[] = [];
   for (const approvedItem of approved) {
@@ -25,9 +27,9 @@ export async function runExecute(dataDir: string, now: Date = new Date()): Promi
       id: updated.id,
       message: updated.message,
     });
+    await writeState(dataDir, currentState);
     executed.push(updated);
   }
 
-  await writeState(dataDir, currentState);
   return executed;
 }

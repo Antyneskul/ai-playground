@@ -34,6 +34,23 @@ test("runExecute with no approved items is a clean no-op: no state write, no log
   await assert.rejects(() => stat(getLogFilePath(dir)), /ENOENT/);
 });
 
+test("runExecute executes multiple approved items in a single call", async () => {
+  const dir = await tempDataDir();
+  await runDraft(dir); // item 1
+  await runDraft(dir); // item 2
+  await runApprove(dir, "1");
+  await runApprove(dir, "2");
+  const executed = await runExecute(dir);
+  assert.equal(executed.length, 2);
+  assert.equal(executed[0].status, "executed");
+  assert.equal(executed[1].status, "executed");
+  const state = await readState(dir);
+  assert.equal(state.items[0].status, "executed");
+  assert.equal(state.items[1].status, "executed");
+  const logContents = await readFile(getLogFilePath(dir), "utf8");
+  assert.equal(logContents.trim().split("\n").length, 2);
+});
+
 test("running twice in a row does not re-execute or re-log an already-executed item", async () => {
   const dir = await tempDataDir();
   await runDraft(dir);

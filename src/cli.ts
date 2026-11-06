@@ -1,18 +1,19 @@
 #!/usr/bin/env node
+import { fileURLToPath } from "node:url";
+import { realpathSync } from "node:fs";
 import { getDataDir } from "./paths.js";
 import { runDraft } from "./commands/draft.js";
-import { runList } from "./commands/list.js";
+import { runList, formatItem } from "./commands/list.js";
 import { runApprove, runReject } from "./commands/decide.js";
 import { runExecute } from "./commands/run.js";
-import type { Item } from "./types.js";
-
-function formatItem(item: Item): string {
-  return `[${item.id}] ${item.status} ${item.message}`;
-}
 
 export async function main(argv: string[]): Promise<void> {
   const [command, ...rest] = argv;
   const dataDir = getDataDir();
+
+  if (!command) {
+    throw new Error("Usage: <draft|list|approve|reject|run> [args]");
+  }
 
   switch (command) {
     case "draft": {
@@ -59,7 +60,7 @@ export async function main(argv: string[]): Promise<void> {
   }
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && realpathSync(process.argv[1]) === fileURLToPath(import.meta.url)) {
   main(process.argv.slice(2)).catch((err) => {
     console.error(err.message);
     process.exit(1);
