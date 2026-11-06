@@ -1,0 +1,22 @@
+[
+  {
+    "id": "real",
+    "flaw": "none",
+    "text": "Engineering Manager with 5+ years in engineering leadership and 16+ years in software development. Led fintech product teams delivering regulated investor onboarding, including KYC/AML and investor qualification. Combines people management, stakeholder alignment, and technical leadership to deliver web, mobile, and backend platforms. Hands-on experience with TypeScript, React, NestJS, and AWS."
+  },
+  {
+    "id": "vague",
+    "flaw": "vague-generic",
+    "text": "Dynamic and results-driven engineering manager with extensive experience in leading high-performing teams across various technical domains. Passionate about fostering collaboration and driving innovation, I excel in managing cross-functional projects and aligning technical initiatives with business goals. Known for optimizing processes and enhancing team performance, I prioritize effective communication and stakeholder engagement to deliver successful outcomes. My commitment to mentoring and developing talent further strengthens my teams, ensuring continuous growth and excellence in engineering practices."
+  },
+  {
+    "id": "overclaim",
+    "flaw": "over-claiming",
+    "text": "Dynamic Software Engineering Manager with extensive experience driving strategic initiatives and optimizing engineering processes across multiple teams in a fast-paced environment. Proven track record in leading cross-functional projects, including the successful rollout of a Direct-to-Investor platform across diverse regulatory frameworks and jurisdictions. Expertise in fostering collaboration with executive stakeholders, enhancing team performance through innovative AI-assisted workflows, and spearheading architectural migrations that align with organizational goals. Adept at talent acquisition and development, with a strong focus on cultivating high-performing teams capable of delivering exceptional results in challenging settings."
+  },
+  {
+    "id": "irrelevant",
+    "flaw": "irrelevant-heavy",
+    "text": "Dynamic Software Engineering Manager with a solid foundation in both frontend and full-stack development, having contributed to projects since 2010. Oleksandr has extensive experience in delivering user-facing features, developing applications using Angular, Node.js, and React, and participating in platform migrations. He has a proven track record of mentoring developers and building reusable components to enhance team efficiency. With a hands-on approach to engineering tasks and a strong background in cross-team collaboration, he effectively bridges technical and business requirements to deliver impactful solutions."
+  }
+]

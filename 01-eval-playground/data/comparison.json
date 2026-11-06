@@ -1,0 +1,66 @@
+{
+  "comparisons": [
+    {
+      "pairId": "real-vague",
+      "humanPreferredId": "real",
+      "judgeStable": true,
+      "judgeOrientation1Winner": "real",
+      "judgeOrientation2Winner": "real",
+      "judgeWinnerIfStable": "real",
+      "agreement": "agree"
+    },
+    {
+      "pairId": "real-overclaim",
+      "humanPreferredId": "real",
+      "judgeStable": false,
+      "judgeOrientation1Winner": "overclaim",
+      "judgeOrientation2Winner": "real",
+      "judgeWinnerIfStable": null,
+      "agreement": "order-dependent"
+    },
+    {
+      "pairId": "real-irrelevant",
+      "humanPreferredId": "real",
+      "judgeStable": true,
+      "judgeOrientation1Winner": "real",
+      "judgeOrientation2Winner": "real",
+      "judgeWinnerIfStable": "real",
+      "agreement": "agree"
+    },
+    {
+      "pairId": "vague-overclaim",
+      "humanPreferredId": "overclaim",
+      "judgeStable": true,
+      "judgeOrientation1Winner": "overclaim",
+      "judgeOrientation2Winner": "overclaim",
+      "judgeWinnerIfStable": "overclaim",
+      "agreement": "agree"
+    },
+    {
+      "pairId": "vague-irrelevant",
+      "humanPreferredId": "vague",
+      "judgeStable": true,
+      "judgeOrientation1Winner": "irrelevant",
+      "judgeOrientation2Winner": "irrelevant",
+      "judgeWinnerIfStable": "irrelevant",
+      "agreement": "disagree"
+    },
+    {
+      "pairId": "overclaim-irrelevant",
+      "humanPreferredId": "overclaim",
+      "judgeStable": true,
+      "judgeOrientation1Winner": "overclaim",
+      "judgeOrientation2Winner": "overclaim",
+      "judgeWinnerIfStable": "overclaim",
+      "agreement": "agree"
+    }
+  ],
+  "summary": {
+    "totalPairs": 6,
+    "stablePairs": 5,
+    "orderDependentPairs": 1,
+    "scorablePairs": 5,
+    "agreementCount": 4,
+    "agreementRate": 0.8
+  }
+}
